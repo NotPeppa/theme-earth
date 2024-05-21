@@ -2,10 +2,6 @@ apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
   name: earth
-  annotations:
-    # Add supports for Halo App Store
-    # https://halo.run/store/apps/app-KgWqR
-    "store.halo.run/app-id": "app-KgWqR"
 spec:
   displayName: Earth
   author:
@@ -14,8 +10,8 @@ spec:
   description: 基于Halo 2.0 的默认主题修改
   logo: https://www.halo.run/logo
   homepage: https://www.halo.run/store/apps/app-KgWqR
-  repo: https://github.com/halo-dev/theme-earth
-  issues: https://github.com/halo-dev/theme-earth/issues
+  repo: https://github.com/NotPeppa/theme-earth.git
+  issues: https://github.com/NotPeppa/theme-earth/issues
   settingName: "theme-earth-setting"
   configMapName: "theme-earth-configMap"
   version: 1.8.0
