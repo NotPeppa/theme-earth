@@ -1,7 +1,7 @@
 apiVersion: v1alpha1
 kind: Setting
 metadata:
-  name: theme-earth-setting
+  name: earth-setting
 spec:
   forms:
     - group: layout
@@ -363,7 +363,7 @@ spec:
         - $formkit: text
           name: icp_link
           label: ICP备案跳转链接
-          value: https://beian.miit.gov.cn/
+          value: 
 
         - $formkit: text
           name: gongan_text
@@ -371,4 +371,4 @@ spec:
         - $formkit: text
           name: gongan_link
           label: 公安联网备案跳转链接
-          value: https://beian.mps.gov.cn/#/query/webSearch
+          value: 
