@@ -12,7 +12,7 @@ spec:
   homepage: https://www.halo.run/store/apps/app-KgWqR
   repo: https://github.com/NotPeppa/theme-earth.git
   issues: https://github.com/NotPeppa/theme-earth/issues
-  settingName: "theme-earth-setting"
+  settingName: "earth-setting"
   configMapName: "theme-earth-configMap"
   version: 1.8.0
   requires: ">=2.8.0"
